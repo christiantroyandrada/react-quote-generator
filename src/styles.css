@@ -1,0 +1,59 @@
+.container {
+  text-align: center;
+  justify-content: center;
+}
+.card {
+  margin: 0 auto;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  width: 80%;
+  margin-top: 10%;
+}
+.card-title {
+  font-family: "Segoe UI", "Arial", sans-serif;
+}
+.card-text {
+  font-size: 2rem;
+}
+.quote-mark {
+  font-size: 4rem;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.quote-message {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.7rem;
+}
+.quote-author {
+  margin-left: 70%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-button,
+.tweet-button {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote-button button,
+.tweet-button button {
+  border: none;
+  color: white;
+  width: 23%;
+  height: 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.quote-button button {
+  margin-top: 0.5rem;
+  background-color: #4caf50; /* Green */
+}
+
+.tweet-button button {
+  background-color: rgb(48, 169, 250);
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
