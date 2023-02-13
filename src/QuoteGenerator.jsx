@@ -7,7 +7,7 @@ class QuoteGenerator extends React.Component {
     super(props);
     this.state = {
       quoteText: "",
-      quoteAuthor: ""
+      quoteAuthor: "",
     };
     this.handleClick = this.handleClick.bind(this);
   }
@@ -26,7 +26,7 @@ class QuoteGenerator extends React.Component {
         quoteText: nextProps.quoteText,
         quoteAuthor: `${nextProps.quoteAuthor}${Math.floor(
           Math.random() * (1000 - 1 + 1) + 1
-        )}`
+        )}`,
       };
     }
     return null;
@@ -62,7 +62,7 @@ class QuoteGenerator extends React.Component {
         <div className="tweet-button">
           <a
             id="tweet-quote"
-            href={`http://twitter.com/intent/tweet?text=${this.state.quoteText}&hashtags=RandomQuoteGen,ReactLearn`}
+            href={`http://twitter.com/intent/tweet?text=${this.state.quoteText}  -${this.state.quoteAuthor}&hashtags=RandomQuoteGen,ReactLearn`}
             target="_blank"
           >
             <button>Tweet It</button>
